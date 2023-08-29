@@ -4,7 +4,7 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-  "appPort": "8124:8123",
+  "appPort": "25678:5678",
   "postStartCommand": "script/bootstrap",
   "containerEnv": {
     "WORKSPACE_DIRECTORY": "${containerWorkspaceFolder}"
